@@ -1,0 +1,62 @@
+{
+  "graph": {
+    "vertices": [
+      {
+        "id": "v1",
+        "x": 90,
+        "y": 190,
+        "radius": 13,
+        "label": "",
+        "detector": "hough"
+      },
+      {
+        "id": "v2",
+        "x": 235,
+        "y": 95,
+        "radius": 10,
+        "label": "Q",
+        "detector": "hough"
+      },
+      {
+        "id": "v3",
+        "x": 380,
+        "y": 190,
+        "radius": 13,
+        "label": "",
+        "detector": "hough"
+      },
+      {
+        "id": "v4",
+        "x": 525,
+        "y": 95,
+        "radius": 10,
+        "label": "S",
+        "detector": "hough"
+      }
+    ],
+    "edges": [
+      {
+        "source": "v1",
+        "target": "v2",
+        "confidence": 1.0
+      },
+      {
+        "source": "v2",
+        "target": "v3",
+        "confidence": 1.0
+      },
+      {
+        "source": "v3",
+        "target": "v4",
+        "confidence": 1.0
+      }
+    ]
+  },
+  "metrics": {
+    "vertex_precision": 1.0,
+    "vertex_recall": 1.0,
+    "edge_precision": 1.0,
+    "edge_recall": 1.0,
+    "label_accuracy": 0.5
+  }
+}
