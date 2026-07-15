@@ -1,11 +1,5 @@
 # Route Editor
 
-## Ultradokładna dokumentacja techniczna projektu
-
-**Stan projektu:** kroki 1–91  
-**Autor projektu:** Marysia Nazarczuk  
-**Data opracowania:** 15 lipca 2026  
-**Podstawa dokumentacji:** kod źródłowy z archiwum `route_editor.zip`
 
 > Dokument opisuje architekturę, model danych, warstwę serwerową i kliencką, funkcjonalności edytora, konstrukcje geometryczne, rozszerzenia, import obrazów, eksport, testy, instalację oraz zalecenia rozwojowe.
 
