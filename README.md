@@ -81,9 +81,8 @@ Najważniejszą cechą systemu jest rozdzielenie warstwy wizualnej od struktural
 
 | **Obszar**                      | **Stan**                                                                                                    |
 |---------------------------------|-------------------------------------------------------------------------------------------------------------|
-| Główny edytor                   | Aktywny; szablon drawing_detail.html ładuje pliki kroku 90.                                                 |
+| Główny edytor                   | Aktywny; szablon drawing_detail.html ładuje pliki.                                                          |
 | Rozpoznawanie obrazu            | Aktywne jako import obrazu; krok 91.                                                                        |
-| Starszy edytor Route/Point/Edge | Zachowany pod adresami legacy; ukryty z głównego interfejsu.                                                |
 | Baza danych                     | SQLite; modele Django.                                                                                      |
 | Testy                           | 66 klas testowych i 376 metod testowych wykrytych statycznie.                                               |
 | Dokumentacja historyczna        | Brak kompletnej dokumentacji krok po kroku w archiwum; historia jest rekonstruowana z testów i nazw plików. |
