@@ -1,0 +1,212 @@
+{
+  "schema_version": 1,
+  "title": "Rozpoznany graf — path_clean",
+  "mode": "graph",
+  "settings": {
+    "canvas": {
+      "width": 640,
+      "height": 420,
+      "gridSize": 20,
+      "showGrid": true,
+      "snapToGrid": false
+    }
+  },
+  "metadata": {
+    "source": "image_recognition_experiment",
+    "source_image": "path_clean.png",
+    "requires_human_review": true,
+    "recognition_summary": {
+      "vertices": 4,
+      "edges": 3,
+      "labels": 2,
+      "skipped_edges": []
+    }
+  },
+  "objects": [
+    {
+      "object_id": "recognized_vertex_001_v1",
+      "type": "graph.vertex",
+      "data": {
+        "x": 90,
+        "y": 190,
+        "label": "",
+        "recognition": {
+          "sourceId": "v1",
+          "detector": "hough",
+          "detectedRadius": 13
+        }
+      },
+      "style": {
+        "stroke": "#111827",
+        "fill": "#ffffff",
+        "strokeWidth": 2,
+        "radius": 10,
+        "visible": true
+      },
+      "order": 0
+    },
+    {
+      "object_id": "recognized_vertex_002_v2",
+      "type": "graph.vertex",
+      "data": {
+        "x": 235,
+        "y": 95,
+        "label": "",
+        "recognition": {
+          "sourceId": "v2",
+          "detector": "hough",
+          "detectedRadius": 10
+        }
+      },
+      "style": {
+        "stroke": "#111827",
+        "fill": "#ffffff",
+        "strokeWidth": 2,
+        "radius": 10,
+        "visible": true
+      },
+      "order": 1
+    },
+    {
+      "object_id": "recognized_vertex_003_v3",
+      "type": "graph.vertex",
+      "data": {
+        "x": 380,
+        "y": 190,
+        "label": "",
+        "recognition": {
+          "sourceId": "v3",
+          "detector": "hough",
+          "detectedRadius": 13
+        }
+      },
+      "style": {
+        "stroke": "#111827",
+        "fill": "#ffffff",
+        "strokeWidth": 2,
+        "radius": 10,
+        "visible": true
+      },
+      "order": 2
+    },
+    {
+      "object_id": "recognized_vertex_004_v4",
+      "type": "graph.vertex",
+      "data": {
+        "x": 525,
+        "y": 95,
+        "label": "",
+        "recognition": {
+          "sourceId": "v4",
+          "detector": "hough",
+          "detectedRadius": 10
+        }
+      },
+      "style": {
+        "stroke": "#111827",
+        "fill": "#ffffff",
+        "strokeWidth": 2,
+        "radius": 10,
+        "visible": true
+      },
+      "order": 3
+    },
+    {
+      "object_id": "recognized_edge_001",
+      "type": "graph.edge",
+      "data": {
+        "source": "recognized_vertex_001_v1",
+        "target": "recognized_vertex_002_v2",
+        "label": "",
+        "recognition": {
+          "confidence": 1.0
+        }
+      },
+      "style": {
+        "stroke": "#111827",
+        "strokeWidth": 2,
+        "lineStyle": "solid",
+        "visible": true
+      },
+      "order": 4
+    },
+    {
+      "object_id": "recognized_edge_002",
+      "type": "graph.edge",
+      "data": {
+        "source": "recognized_vertex_002_v2",
+        "target": "recognized_vertex_003_v3",
+        "label": "",
+        "recognition": {
+          "confidence": 1.0
+        }
+      },
+      "style": {
+        "stroke": "#111827",
+        "strokeWidth": 2,
+        "lineStyle": "solid",
+        "visible": true
+      },
+      "order": 5
+    },
+    {
+      "object_id": "recognized_edge_003",
+      "type": "graph.edge",
+      "data": {
+        "source": "recognized_vertex_003_v3",
+        "target": "recognized_vertex_004_v4",
+        "label": "",
+        "recognition": {
+          "confidence": 1.0
+        }
+      },
+      "style": {
+        "stroke": "#111827",
+        "strokeWidth": 2,
+        "lineStyle": "solid",
+        "visible": true
+      },
+      "order": 6
+    },
+    {
+      "object_id": "recognized_label_002",
+      "type": "label.relative",
+      "data": {
+        "baseObjectId": "recognized_vertex_002_v2",
+        "text": "Q",
+        "dx": 16,
+        "dy": -18,
+        "recognition": {
+          "source": "ocr",
+          "requiresReview": true
+        }
+      },
+      "style": {
+        "fill": "#111827",
+        "fontSize": 16,
+        "visible": true
+      },
+      "order": 7
+    },
+    {
+      "object_id": "recognized_label_004",
+      "type": "label.relative",
+      "data": {
+        "baseObjectId": "recognized_vertex_004_v4",
+        "text": "S",
+        "dx": -22,
+        "dy": -18,
+        "recognition": {
+          "source": "ocr",
+          "requiresReview": true
+        }
+      },
+      "style": {
+        "fill": "#111827",
+        "fontSize": 16,
+        "visible": true
+      },
+      "order": 8
+    }
+  ]
+}

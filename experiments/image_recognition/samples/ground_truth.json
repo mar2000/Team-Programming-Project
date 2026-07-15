@@ -1,0 +1,133 @@
+[
+  {
+    "image": "triangle_clean.png",
+    "vertices": [
+      {
+        "id": "v1",
+        "x": 150,
+        "y": 95,
+        "label": "A"
+      },
+      {
+        "id": "v2",
+        "x": 90,
+        "y": 300,
+        "label": "B"
+      },
+      {
+        "id": "v3",
+        "x": 350,
+        "y": 300,
+        "label": "C"
+      }
+    ],
+    "edges": [
+      {
+        "source": "v1",
+        "target": "v2"
+      },
+      {
+        "source": "v2",
+        "target": "v3"
+      },
+      {
+        "source": "v3",
+        "target": "v1"
+      }
+    ]
+  },
+  {
+    "image": "path_clean.png",
+    "vertices": [
+      {
+        "id": "v1",
+        "x": 90,
+        "y": 190,
+        "label": "P"
+      },
+      {
+        "id": "v2",
+        "x": 235,
+        "y": 95,
+        "label": "Q"
+      },
+      {
+        "id": "v3",
+        "x": 380,
+        "y": 190,
+        "label": "R"
+      },
+      {
+        "id": "v4",
+        "x": 525,
+        "y": 95,
+        "label": "S"
+      }
+    ],
+    "edges": [
+      {
+        "source": "v1",
+        "target": "v2"
+      },
+      {
+        "source": "v2",
+        "target": "v3"
+      },
+      {
+        "source": "v3",
+        "target": "v4"
+      }
+    ]
+  },
+  {
+    "image": "square_diagonal_noisy.png",
+    "vertices": [
+      {
+        "id": "v1",
+        "x": 125,
+        "y": 95,
+        "label": "W"
+      },
+      {
+        "id": "v2",
+        "x": 430,
+        "y": 95,
+        "label": "X"
+      },
+      {
+        "id": "v3",
+        "x": 430,
+        "y": 310,
+        "label": "Y"
+      },
+      {
+        "id": "v4",
+        "x": 125,
+        "y": 310,
+        "label": "Z"
+      }
+    ],
+    "edges": [
+      {
+        "source": "v1",
+        "target": "v2"
+      },
+      {
+        "source": "v2",
+        "target": "v3"
+      },
+      {
+        "source": "v3",
+        "target": "v4"
+      },
+      {
+        "source": "v4",
+        "target": "v1"
+      },
+      {
+        "source": "v1",
+        "target": "v3"
+      }
+    ]
+  }
+]
